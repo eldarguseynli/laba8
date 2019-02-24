@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include "lab8lib.h"
 
-int findCharNum(FILE *f){
-	
+int findCharNum(char *name){
+
+	return(0);
 }

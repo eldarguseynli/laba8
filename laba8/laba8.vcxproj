@@ -116,9 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="countEvenOdd.c" />
+    <ClCompile Include="fillFile.c" />
     <ClCompile Include="findCharNum.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="printFile.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lab8lib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
