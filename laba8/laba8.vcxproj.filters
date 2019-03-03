@@ -33,6 +33,9 @@
     <ClCompile Include="printFileWithCharacters.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fillFileWithCharacters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lab8lib.h">

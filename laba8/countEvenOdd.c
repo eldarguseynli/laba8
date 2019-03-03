@@ -26,4 +26,6 @@ int countEvenOdd(char *name) {
 
 	printf("\nNumber of even integers: %d\n", e);
 	printf("Number of odd integers: %d\n", o);
+
+	return 0;
 }

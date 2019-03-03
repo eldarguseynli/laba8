@@ -4,4 +4,6 @@
 int findCharNum(char *name);
 int CountEvenOdd(char *name);
 int printFile(char *name);
+int printFileWithCharacters(char *name);
 int fillFile(char *name);
+int fillFileWithCharacters(char *name);

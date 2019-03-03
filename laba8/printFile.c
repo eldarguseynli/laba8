@@ -3,7 +3,7 @@
 int printFile(char *name) {
 
 	FILE *f;
-	if ((f = fopen("test.data", "r+b")) == NULL) { printf("Cannot open file.\n"); exit(1); }
+	if ((f = fopen(name, "r+b")) == NULL) { printf("Cannot open file.\n"); system("pause"); exit(1); }
 
 	int a; //buffer for numbers 
 
@@ -16,4 +16,6 @@ int printFile(char *name) {
 	puts("-------------------------------------------------");
 	
 	fclose(f);
+
+	return 0;
 }

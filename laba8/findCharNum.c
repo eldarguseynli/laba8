@@ -1,10 +1,10 @@
 #include "lab8lib.h"
 
-int countEvenOdd(char *name) {
+int findCharNum(char *name) {
 
 	FILE *f;
 
-	if ((f = fopen("test.data", "a+b")) == NULL) { printf("Cannot open file.\n"); exit(1); }
+	/*if ((f = fopen("test.data", "a+b")) == NULL) { printf("Cannot open file.\n"); exit(1); }
 	int a, b; //buffers for numbers, numbers of even/odd
 	while (!feof(f))
 	{
@@ -26,4 +26,6 @@ int countEvenOdd(char *name) {
 
 	printf("\nNumber of even integers: %d\n", e);
 	printf("Number of odd integers: %d\n", o);
+
+	*/
 }

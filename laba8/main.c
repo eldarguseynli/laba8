@@ -17,11 +17,11 @@ int main() {
 	}
 	case 'b':
 	{
-		fillFile("source.data");
+		fillFileWithCharacters("resourse.txt");
+		printFileWithCharacters("resourse.txt");
 		//output(f);
 		//output(g);
-		//fclose(g);
-		//fclose(f);
+
 		break;
 	}
 	default:

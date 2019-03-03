@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="countEvenOdd.c" />
     <ClCompile Include="fillFile.c" />
+    <ClCompile Include="fillFileWithCharacters.c" />
     <ClCompile Include="findCharNum.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="printFile.c" />
