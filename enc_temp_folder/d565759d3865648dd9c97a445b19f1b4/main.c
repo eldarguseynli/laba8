@@ -17,7 +17,7 @@ int main() {
 	}
 	case 'b':
 	{
-		fillFile("source.data");
+		//findCharNum(f);
 		//output(f);
 		//output(g);
 		//fclose(g);
