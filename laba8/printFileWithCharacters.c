@@ -3,19 +3,15 @@
 int printFileWithCharacters(char *name) {
 
 	FILE *f;
-	if ((f = fopen(name, "r+b")) == NULL) { printf("Cannot open file.\n"); exit(1); }
+	if ((f = fopen(name, "r+t")) == NULL) { printf("Cannot open file.\n"); exit(1); }
 
-	char s[100]; //buffer for numbers 
+	char s[64]; //buffer for numbers 
 
-	puts("\n-----------------CONTENT-OF-FILE-----------------");
-	while (fgetc(s, 99,  f))
-	{
-		puts(s);
-		//fread(&a, sizeof(int), 1, f);
-		//if (!feof(f)) { printf("%d\n", a); }
+	puts("\n\n-----------------CONTENT-OF-FILE-----------------");
+	while (!feof(f)) {
+		if (fgets(s, 64, f)) printf("%s", s); //read every line in text file
 	}
-
-	puts("-------------------------------------------------");
+	printf("\n-------------------------------------------------");
 
 	fclose(f);
 }

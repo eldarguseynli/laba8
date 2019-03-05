@@ -18,10 +18,9 @@ int main() {
 	case 'b':
 	{
 		fillFileWithCharacters("resourse.txt");
-		printFileWithCharacters("resourse.txt");
-		//output(f);
-		//output(g);
-
+		printf("\nresult.file:");
+		findCharNum("resourse.txt", "result.txt");
+		printFileWithCharacters("result.txt");
 		break;
 	}
 	default:
