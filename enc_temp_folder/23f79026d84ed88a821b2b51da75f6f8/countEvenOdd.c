@@ -12,7 +12,8 @@ int countEvenOdd(char *name) {
 		if (!feof(f)) { if (a % 2 == 0) { e++; } else { o++; } }
 	}
 
-	fwrite(&e, sizeof(int), 1, f); //write in the end of file the number of even/odd
+	fwrite(&e, sizeof(int), 1, f);
+	fseek(f, -(int)sizeof(int), SEEK_CUR);
 	fwrite(&o, sizeof(int), 1, f);
 
 	fclose(f);

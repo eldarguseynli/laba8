@@ -3,7 +3,7 @@
 
 int fillFileWithCharacters(char *name){
 	FILE *f;
-	char s[100]; s[0] = 'a';  s[2] = 0;//buffer 
+	char s[100]; s[0] = 'a'; s[1] = 'a';  s[2] = 0;//buffer 
 
 	if ((f = fopen(name, "w+t")) == NULL) { printf("Cannot open file.\n"); exit(1); }
 	puts("\nInput strings consequently. If you want to terminate filling the file, input empty string\n");
