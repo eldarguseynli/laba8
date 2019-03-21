@@ -1,4 +1,5 @@
 #include "lab8lib.h"
+//do not forget to exclude stdio!!!
 
 int main() {
 	
