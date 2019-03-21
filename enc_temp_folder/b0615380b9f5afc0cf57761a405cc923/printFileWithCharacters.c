@@ -3,7 +3,7 @@
 int printFileWithCharacters(char *name) {
 
 	FILE *f;
-	if ((f = fopen(name, "rt")) == NULL) { printf("Cannot open file.\n"); exit(1); }
+	if ((f = fopen(name, "r+t")) == NULL) { printf("Cannot open file.\n"); exit(1); }
 
 	char s[64]; //buffer for numbers 
 
