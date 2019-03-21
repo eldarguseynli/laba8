@@ -3,7 +3,7 @@
 int printFile(char *name) {
 
 	FILE *f;
-	if ((f = fopen(name, "rb")) == NULL) { printf("Cannot open file.\n"); system("pause"); exit(1); }
+	if ((f = fopen(name, "r+b")) == NULL) { printf("Cannot open file.\n"); system("pause"); exit(1); }
 
 	int a; //buffer for numbers 
 
